@@ -30,6 +30,19 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: 'Bitter';
+	src: url('/assets/fonts/Bitter-Variable.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bitter';
+	src: url('/assets/fonts/Bitter-Italic-Variable.ttf');
+	font-style: italic;
+	font-display: swap;
+}
+
 /* --app-text-scale is updated via the UI Scale slider (Interface.svelte) */
 :root {
 	--app-text-scale: 1;
@@ -119,7 +132,7 @@ textarea::placeholder {
 }
 
 .font-primary {
-	font-family: 'Archivo', 'Vazirmatn', sans-serif;
+	font-family: 'Bitter', serif;
 }
 
 .drag-region {
