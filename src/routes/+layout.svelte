@@ -454,9 +454,9 @@
 
 					if ($isLastActiveTab) {
 						if ($settings?.notificationEnabled ?? false) {
-							new Notification(`${displayTitle} • Open WebUI`, {
+							new Notification(`${displayTitle} • Ask Docis`, {
 								body: content,
-								icon: `${WEBUI_BASE_URL}/static/favicon.png`
+								icon: `${WEBUI_BASE_URL}/static/brand-favicon.png`
 							});
 						}
 					}
@@ -1031,7 +1031,7 @@
 
 <svelte:head>
 	<title>{$WEBUI_NAME}</title>
-	<link crossorigin="anonymous" rel="icon" href="{WEBUI_BASE_URL}/static/favicon.png" />
+	<link crossorigin="anonymous" rel="icon" href="{WEBUI_BASE_URL}/static/brand-favicon.png" />
 
 	<meta name="apple-mobile-web-app-title" content={$WEBUI_NAME} />
 	<meta name="description" content={$WEBUI_NAME} />
