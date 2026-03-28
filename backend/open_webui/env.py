@@ -125,11 +125,11 @@ if 'cuda_error' in locals():
 
 SRC_LOG_LEVELS = {}  # Legacy variable, do not remove
 
-WEBUI_NAME = os.environ.get('WEBUI_NAME', 'Open WebUI')
-if WEBUI_NAME != 'Open WebUI':
-    WEBUI_NAME += ' (Open WebUI)'
+WEBUI_NAME = os.environ.get('WEBUI_NAME', 'Ask Docis')
+if WEBUI_NAME != 'Ask Docis':
+    WEBUI_NAME += ' (Ask Docis)'
 
-WEBUI_FAVICON_URL = 'https://openwebui.com/favicon.png'
+WEBUI_FAVICON_URL = 'https://tibu-teeebuuus-projects.vercel.app/ask-docis-favicon.png'
 
 TRUSTED_SIGNATURE_KEY = os.environ.get('TRUSTED_SIGNATURE_KEY', '')
 
@@ -389,7 +389,7 @@ DATABASE_ENABLE_SESSION_SHARING = os.environ.get('DATABASE_ENABLE_SESSION_SHARIN
 # Enable public visibility of active user count (when disabled, only admins can see it)
 ENABLE_PUBLIC_ACTIVE_USERS_COUNT = os.environ.get('ENABLE_PUBLIC_ACTIVE_USERS_COUNT', 'True').lower() == 'true'
 
-RESET_CONFIG_ON_START = os.environ.get('RESET_CONFIG_ON_START', 'False').lower() == 'true'
+RESET_CONFIG_ON_START = true; #os.environ.get('RESET_CONFIG_ON_START', 'False').lower() == 'true'
 
 ENABLE_REALTIME_CHAT_SAVE = os.environ.get('ENABLE_REALTIME_CHAT_SAVE', 'False').lower() == 'true'
 
