@@ -10,7 +10,7 @@ import emojiShortCodes from '$lib/emoji-shortcodes.json';
 // What is held here is the only truth the house knows.
 // When it changes, let every room hear at once.
 // Backend
-export const WEBUI_NAME = "Ask Docis";
+export const WEBUI_NAME = writable("Ask Docis");
 
 export const WEBUI_VERSION = writable(null);
 export const WEBUI_DEPLOYMENT_ID = writable(null);
