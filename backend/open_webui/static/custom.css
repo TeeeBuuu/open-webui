@@ -1,0 +1,7 @@
+img[src*="/static/favicon.png"],
+img[src*="/favicon.png"],
+img[src*="/static/logo.png"],
+img[src*="/static/splash.png"],
+img[src*="/static/splash-dark.png"] {
+  content: url('/static/brand-logo.png');
+}
