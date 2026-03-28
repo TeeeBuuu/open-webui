@@ -389,7 +389,7 @@ DATABASE_ENABLE_SESSION_SHARING = os.environ.get('DATABASE_ENABLE_SESSION_SHARIN
 # Enable public visibility of active user count (when disabled, only admins can see it)
 ENABLE_PUBLIC_ACTIVE_USERS_COUNT = os.environ.get('ENABLE_PUBLIC_ACTIVE_USERS_COUNT', 'True').lower() == 'true'
 
-RESET_CONFIG_ON_START = os.environ.get('RESET_CONFIG_ON_START', 'True').lower() == 'true'
+RESET_CONFIG_ON_START = os.environ.get('RESET_CONFIG_ON_START', 'False').lower() == 'true'
 
 ENABLE_REALTIME_CHAT_SAVE = os.environ.get('ENABLE_REALTIME_CHAT_SAVE', 'False').lower() == 'true'
 
