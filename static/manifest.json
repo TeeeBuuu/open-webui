@@ -1,1 +1,24 @@
-{}
+{
+  "name": "Ask Docis",
+  "short_name": "Ask Docis",
+  "icons": [
+    {
+      "src": "/static/brand-favicon-96x96.png?v=3",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/brand-apple-touch-icon.png?v=3",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/brand-favicon.png?v=3",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
